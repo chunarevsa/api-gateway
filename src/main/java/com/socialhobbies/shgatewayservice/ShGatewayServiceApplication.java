@@ -1,8 +1,7 @@
-package com.smarthome.shgatewayservice;
+package com.socialhobbies.shgatewayservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 public class ShGatewayServiceApplication {

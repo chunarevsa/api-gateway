@@ -1,4 +1,4 @@
-package com.smarthome.shgatewayservice;
+package com.socialhobbies.shgatewayservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
