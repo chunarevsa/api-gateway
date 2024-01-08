@@ -1,5 +1,5 @@
 server:
-  port: 8765
+  port: ${GATEWAY_PORT}
 
 spring:
   application:
@@ -14,8 +14,3 @@ spring:
         locator:
           enabled: true
           lower-case-service-id: true
-
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
