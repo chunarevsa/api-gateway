@@ -13,7 +13,7 @@ COPY src src
 RUN gradle build --no-daemon --exclude-task test
 
 # Используем минимальный образ с JRE
-FROM openjdk:11-jre-slim
+FROM openjdk:17
 
 # Устанавливаем рабочую директорию
 WORKDIR /app/apigateway
