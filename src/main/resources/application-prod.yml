@@ -1,9 +1,9 @@
 
 spring:
   config:
-    import: configserver:http://${LOCALHOST}:8888
+    import: configserver:http://config-server:8888
 
 eureka:
   client:
     service-url:
-      defaultZone: http://${LOCALHOST}:8761/eureka
+      defaultZone: http://eureka-server:8761/eureka
